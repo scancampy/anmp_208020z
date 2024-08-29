@@ -22,10 +22,13 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         Log.d("state-app", "App is resuming")
+        // TODO: init data ulang
     }
 
     override fun onDestroy() {
         Log.d("state-app", "App is closing")
         super.onDestroy()
+
+        // TODO: tolong tambahkan dialog yes no
     }
 }
