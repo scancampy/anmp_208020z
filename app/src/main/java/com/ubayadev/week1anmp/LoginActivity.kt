@@ -18,7 +18,7 @@ class LoginActivity : AppCompatActivity() {
         }
 
         // Login feature
-        var username = ""
-        var password = ""
+        var username = "andre"
+        var password = "andre"
     }
 }
